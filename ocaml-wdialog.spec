@@ -2,7 +2,7 @@ Summary:	Toolkit for Dialog-Centric Web Applications
 Summary(pl):	Wi±zania TEMPLATE dla OCamla
 Name:		ocaml-wdialog
 Version:	2.00
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 Vendor:		Gerd Stolpmann <gerd@gerd-stolpmann.de>
