@@ -7,9 +7,9 @@ License:	GPL v2+
 Group:		Libraries
 Vendor:		Gerd Stolpmann <gerd@gerd-stolpmann.de>
 Source0:	http://dl.sourceforge.net/sourceforge/wdialog/wdialog-%{version}.tar.gz
-# Source0-md5:  38a17ae876f133d99da1f9fcc2acb02f
+# Source0-md5:	38a17ae876f133d99da1f9fcc2acb02f
 Source1:	http://dl.sourceforge.net/sourceforge/wdialog/wdialog-manual-%{version}-html.tar.gz
-# Source1-md5:  40a1280113d80f3c1f8780584dcc7982
+# Source1-md5:	40a1280113d80f3c1f8780584dcc7982
 URL:		http://wdialog.sourceforge.net/
 BuildRequires:	ocaml-findlib-devel
 BuildRequires:	ocaml-pxp-devel
