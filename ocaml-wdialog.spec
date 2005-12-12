@@ -1,21 +1,23 @@
 Summary:	Toolkit for Dialog-Centric Web Applications
 Summary(pl):	Wi±zania TEMPLATE dla OCamla
 Name:		ocaml-wdialog
-Version:	2.00
-Release:	3
+Version:	2.1.2
+%define _man_ver 2.1.1
+Release:	0.1
 License:	GPL v2+
 Group:		Libraries
 Vendor:		Gerd Stolpmann <gerd@gerd-stolpmann.de>
 Source0:	http://dl.sourceforge.net/sourceforge/wdialog/wdialog-%{version}.tar.gz
-# Source0-md5:	38a17ae876f133d99da1f9fcc2acb02f
-Source1:	http://dl.sourceforge.net/sourceforge/wdialog/wdialog-manual-%{version}-html.tar.gz
-# Source1-md5:	40a1280113d80f3c1f8780584dcc7982
+# Source0-md5:	1380a8ae75f690043634c66f3f8ff8d1
+Source1:	http://dl.sourceforge.net/sourceforge/wdialog/wdialog-manual-%{_man_ver}-html.tar.gz
+# Source1-md5:	2a4f4c4fa1d8b1718a7938afdcc84add
 URL:		http://wdialog.sourceforge.net/
 BuildRequires:	ocaml-findlib-devel
 BuildRequires:	ocaml-pxp-devel
 BuildRequires:	ocaml-pcre-devel
 BuildRequires:	ocaml-net-cgi-devel
 BuildRequires:	ocaml >= 3.06
+BuildRequires:	ocaml-ulex
 %requires_eq	ocaml-runtime
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,7 +49,7 @@ tej biblioteki.
 
 %build
 # no %%configure please
-./configure
+./configure -without-wd-session-daemon
 %{__make}
 %{__make} opt
 
