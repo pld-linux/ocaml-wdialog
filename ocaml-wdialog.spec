@@ -1,5 +1,5 @@
 Summary:	Toolkit for Dialog-Centric Web Applications
-Summary(pl):	Wi±zania TEMPLATE dla OCamla
+Summary(pl.UTF-8):   WiÄ…zania TEMPLATE dla OCamla
 Name:		ocaml-wdialog
 Version:	2.1.2
 %define _man_ver 2.1.1
@@ -25,13 +25,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains files needed to run bytecode executables using
 this library.
 
-%description -l pl
-Pakiet ten zawiera binaria potrzebne do uruchamiania programów
-u¿ywaj±cych tej biblioteki.
+%description -l pl.UTF-8
+Pakiet ten zawiera binaria potrzebne do uruchamiania programÃ³w
+uÅ¼ywajÄ…cych tej biblioteki.
 
 %package devel
 Summary:	Toolkit for Dialog-Centric Web Applications - development part
-Summary(pl):	Wi±zania TEMPLATE dla OCamla - cze¶æ programistyczna
+Summary(pl.UTF-8):   WiÄ…zania TEMPLATE dla OCamla - czeÅ›Ä‡ programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
@@ -40,8 +40,8 @@ Requires:	%{name} = %{version}-%{release}
 This package contains files needed to develop OCaml programs using
 this library.
 
-%description devel -l pl
-Pakiet ten zawiera pliki niezbêdne do tworzenia programów u¿ywaj±cych
+%description devel -l pl.UTF-8
+Pakiet ten zawiera pliki niezbÄ™dne do tworzenia programÃ³w uÅ¼ywajÄ…cych
 tej biblioteki.
 
 %prep
