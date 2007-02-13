@@ -1,5 +1,5 @@
 Summary:	Toolkit for Dialog-Centric Web Applications
-Summary(pl.UTF-8):   Wiązania TEMPLATE dla OCamla
+Summary(pl.UTF-8):	Wiązania TEMPLATE dla OCamla
 Name:		ocaml-wdialog
 Version:	2.1.2
 %define _man_ver 2.1.1
@@ -31,7 +31,7 @@ używających tej biblioteki.
 
 %package devel
 Summary:	Toolkit for Dialog-Centric Web Applications - development part
-Summary(pl.UTF-8):   Wiązania TEMPLATE dla OCamla - cześć programistyczna
+Summary(pl.UTF-8):	Wiązania TEMPLATE dla OCamla - cześć programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
